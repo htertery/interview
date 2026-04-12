@@ -1,0 +1,10 @@
+track,topic,status,last_three_scores,rolling_avg,attempt_count,critical_miss_free_streak,notes
+coding,arrays-and-strings,Not Started,,0,0,0,
+coding,graphs,Not Started,,0,0,0,
+coding,dynamic-programming,Not Started,,0,0,0,
+system-design,requirements-and-scope,Not Started,,0,0,0,
+system-design,data-modeling-and-storage,Not Started,,0,0,0,
+system-design,scaling-and-reliability,Not Started,,0,0,0,
+ai-interview,llm-fundamentals,Not Started,,0,0,0,
+ai-interview,rag-design,Not Started,,0,0,0,
+ai-interview,evaluation-safety-cost,Not Started,,0,0,0,

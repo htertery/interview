@@ -1,0 +1,17 @@
+{
+  "editor.quickSuggestions": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.suggest.preview": false,
+  "editor.suggest.showIcons": false,
+  "[csharp]": {
+    "editor.suggest.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlineHints.enabled": false
+  },
+  "[markdown]": {
+    "editor.suggest.enabled": true
+  },
+  "omnisharp.enableEditorConfigSupport": false,
+  "omnisharp.enableRoslynAnalyzers": false
+}

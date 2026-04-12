@@ -1,0 +1,4 @@
+date,week,track,language,topic,prompt_id,duration_min,score,critical_miss_count,critical_miss_notes,root_cause,next_drill,confidence_1_to_5
+2026-04-11,1,coding,csharp,arrays-and-strings,COD-001,90,,,,,,
+2026-04-11,1,system-design,na,api-and-storage-basics,SD-001,90,,,,,,
+2026-04-11,1,ai-interview,na,llm-and-rag-basics,AI-001,90,,,,,,
