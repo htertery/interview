@@ -1,4 +1,4 @@
 date,chapter_id,session_type,question_id,question,expected_signal,user_answer_summary,score_0_to_5,gap_tag,follow_up_drill
-2026-04-11,CH-COD-01,practice,Q-COD-001,How do you choose between two pointers and sliding window in C#?,States constraints and invariant clearly before coding,,,
+2026-04-12,CH-COD-01,practice,Q-COD-001,Find all unique pairs in an array that sum to a target,HashSet lookup with complement check and duplicate filtering,Used HashSet + Dictionary approach. Correct O(n) solution. Needed multiple iterations for syntax and order-of-operations fix.,3.5,syntax-accuracy;edge-case-awareness,Practice C# method signatures and return types from memory
 2026-04-11,CH-SD-01,practice,Q-SD-001,How do you move from requirements to high-level architecture in first 10 minutes?,Clarifies scale and non-functional requirements before components,,,
 2026-04-11,CH-AI-01,practice,Q-AI-001,How do you evaluate a RAG system beyond answer correctness?,Defines retrieval quality, grounding, latency, and cost metrics,,,
