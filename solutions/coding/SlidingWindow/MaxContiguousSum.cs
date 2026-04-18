@@ -59,10 +59,10 @@ public class MaxContiguousSum
         }
 
         int windowLastIndex = k;
-        int tempSum;
+        int tempSum = maxSum;
         while(windowLastIndex < numbers.Length-1)
         {
-            tempSum = maxSum - numbers[windowLastIndex - k] + numbers[windowLastIndex+1];
+            tempSum = tempSum - numbers[windowLastIndex - k] + numbers[windowLastIndex];
             if(maxSum < tempSum){
                 maxSum = tempSum;
             }
