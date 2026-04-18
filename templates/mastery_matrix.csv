@@ -1,5 +1,6 @@
 track,topic,status,last_three_scores,rolling_avg,attempt_count,critical_miss_free_streak,notes
 coding,arrays-and-strings,In Progress,3.5,3.5,1,0,First problem solved correctly after iterations
+coding,sliding-window,In Progress,3.5,3.5,1,0,Correct approach but implementation bugs (variable confusion + off-by-one)
 coding,graphs,Not Started,,0,0,0,
 coding,dynamic-programming,Not Started,,0,0,0,
 system-design,requirements-and-scope,Not Started,,0,0,0,

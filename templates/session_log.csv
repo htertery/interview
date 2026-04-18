@@ -1,4 +1,5 @@
 date,week,track,language,topic,prompt_id,duration_min,score,critical_miss_count,critical_miss_notes,root_cause,next_drill,confidence_1_to_5
 2026-04-12,1,coding,csharp,arrays-and-strings,COD-001,45,70,2,Missing return type; order-of-operations bug,syntax-gaps;edge-case-ordering,Method signature drills,3
+2026-04-17,1,coding,csharp,sliding-window,COD-002,30,70,2,Used maxSum instead of tempSum for running window; off-by-one index,variable-role-confusion;off-by-one,Trace through index arithmetic on paper before coding,3
 2026-04-11,1,system-design,na,api-and-storage-basics,SD-001,90,,,,,,
 2026-04-11,1,ai-interview,na,llm-and-rag-basics,AI-001,90,,,,,,

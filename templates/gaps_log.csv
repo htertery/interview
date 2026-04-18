@@ -1,0 +1,5 @@
+gap_tag,first_seen,occurrences,problems_affected,description,drill_recommendation,status
+syntax-accuracy,2026-04-12,1,Q1-TargetSum,Missing return type on method; needed multiple iterations to get C# syntax right,Practice writing method signatures from memory without IDE help,open
+edge-case-ordering,2026-04-12,1,Q1-TargetSum,Add-before-check ordering bug; didn't consider operation sequence for edge cases,Before coding loops - write out the operation order in comments first,open
+variable-role-confusion,2026-04-17,1,Q2-MaxContiguousSum,Used maxSum (best-seen) instead of tempSum (current-window) in sliding calculation - confused the role of each variable,Name variables by role (bestSum vs windowSum) and trace one iteration before coding,open
+off-by-one-indexing,2026-04-17,1,Q2-MaxContiguousSum,Accessed windowLastIndex+1 instead of windowLastIndex - window slid by 2 instead of 1,Trace index arithmetic on paper for first 2 iterations before writing the loop,open
