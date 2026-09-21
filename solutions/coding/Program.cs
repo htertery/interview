@@ -8,3 +8,6 @@ if (filter == "all" || filter == "targetsum")
 
 if (filter == "all" || filter == "maxcontsum")
     MaxContiguousSum.RunTests();
+
+if (filter == "all" || filter == "longmaxuniquesub")
+    LongestSubstringUniqueChars.RunTests();
