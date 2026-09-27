@@ -11,3 +11,6 @@ if (filter == "all" || filter == "maxcontsum")
 
 if (filter == "all" || filter == "longmaxuniquesub")
     LongestSubstringUniqueChars.RunTests();
+
+if (filter == "all" || filter == "maxavgsum")
+MaxAvgSub.RunTests();
