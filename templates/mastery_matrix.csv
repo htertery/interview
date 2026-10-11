@@ -2,7 +2,7 @@ track,topic,status,last_three_scores,rolling_avg,attempt_count,critical_miss_fre
 coding,arrays-and-strings,In Progress,3.5,3.5,1,0,First problem solved correctly after iterations
 coding,sliding-window,In Progress,3.5,3.5,1,0,Correct approach but implementation bugs (variable confusion + off-by-one)
 coding,graphs,Not Started,,0,0,0,
-coding,dynamic-programming,Not Started,,0,0,0,
+coding,dynamic-programming,In Progress,4,4,1,1,Climbing Stairs memoization; six test cases pass
 system-design,requirements-and-scope,Not Started,,0,0,0,
 system-design,data-modeling-and-storage,Not Started,,0,0,0,
 system-design,scaling-and-reliability,Not Started,,0,0,0,
