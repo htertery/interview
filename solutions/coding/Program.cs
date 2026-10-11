@@ -1,5 +1,6 @@
 using Coding.ArraysAndHashing;
 using Coding.SlidingWindow;
+using Coding.DynamicProgramming;
 
 var filter = args.Length > 0 ? args[0].ToLower() : "all";
 
@@ -14,3 +15,6 @@ if (filter == "all" || filter == "longmaxuniquesub")
 
 if (filter == "all" || filter == "maxavgsum")
 MaxAvgSub.RunTests();
+
+if (filter == "all" || filter == "climbstairs")
+ClimbingStairs.RunTests();
