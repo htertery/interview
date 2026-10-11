@@ -18,3 +18,6 @@ MaxAvgSub.RunTests();
 
 if (filter == "all" || filter == "climbstairs")
 ClimbingStairs.RunTests();
+
+if (filter == "all" || filter == "climbcost")
+ClimbingCost.RunTests();

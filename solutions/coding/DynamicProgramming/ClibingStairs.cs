@@ -34,6 +34,7 @@ public class ClimbingStairs
 
     public static int ClimbStairsRec(int n, Dictionary<int, int> cache)
     {
+        if(n==0) return 0;
         if(n==1) return 1;
         if(n==2) return 2;
         if(cache.ContainsKey(n)) return cache[n];
