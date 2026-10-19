@@ -21,3 +21,9 @@ ClimbingStairs.RunTests();
 
 if (filter == "all" || filter == "climbcost")
 ClimbingCost.RunTests();
+
+if (filter == "all" || filter == "houserobber")
+HouseRobber.RunTests();
+
+if (filter == "all" || filter == "uniquepaths")
+    UniquePaths.RunTests();
