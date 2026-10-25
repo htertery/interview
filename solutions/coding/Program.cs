@@ -27,3 +27,9 @@ HouseRobber.RunTests();
 
 if (filter == "all" || filter == "uniquepaths")
     UniquePaths.RunTests();
+
+if (filter == "all" || filter == "longestcommonsub")
+    LongestCommonSub.RunTests();
+
+if (filter == "all" || filter == "editdistance")
+    EditDistance.RunTests();
