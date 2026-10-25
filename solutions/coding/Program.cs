@@ -33,3 +33,6 @@ if (filter == "all" || filter == "longestcommonsub")
 
 if (filter == "all" || filter == "editdistance")
     EditDistance.RunTests();
+
+if (filter == "all" || filter == "longestpalindrom")
+    LongestPalindrom.RunTests();
