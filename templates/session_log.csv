@@ -2,5 +2,12 @@ date,week,track,language,topic,prompt_id,duration_min,score,critical_miss_count,
 2026-04-12,1,coding,csharp,arrays-and-strings,COD-001,45,70,2,Missing return type; order-of-operations bug,syntax-gaps;edge-case-ordering,Method signature drills,3
 2026-04-17,1,coding,csharp,sliding-window,COD-002,30,70,2,Used maxSum instead of tempSum for running window; off-by-one index,variable-role-confusion;off-by-one,Trace through index arithmetic on paper before coding,3
 2026-10-10,,coding,csharp,dynamic-programming,DP-001,,80,0,,Memoized recurrence implemented; all six test cases pass,recursive-subproblem-reuse,Define input constraints and discuss integer range,
+2026-10-11,,coding,csharp,dynamic-programming,DP-002,,80,0,,none,Climbing Cost implementation passes its five RunTests cases,
+2026-10-11,,coding,csharp,dynamic-programming,DP-003,,80,0,,none,House Robber implementation passes all seven RunTests cases,
+2026-10-18,,coding,csharp,dynamic-programming,DP-004,,80,0,,none,Unique Paths implementation passes all six RunTests cases,
+2026-10-18,,coding,csharp,dynamic-programming,DP-005,,,,LCS implementation currently fails six of eight tests with indexing exceptions,dp-index-alignment,Use 1-based table indices with 0-based string indices,
+2026-10-24,,coding,csharp,dynamic-programming,DP-006,,,,Edit Distance implementation currently throws on all eight tests,dp-index-alignment,Handle empty-prefix row and column before filling table,
+2026-10-25,,coding,csharp,dynamic-programming,DP-007,,70,1,Empty input throws IndexOutOfRangeException,empty-input-boundary,Return zero for empty input,
+2026-10-25,,coding,csharp,dynamic-programming,DP-008,,80,0,,none,Palindromic Substrings implementation passes all seven RunTests cases,
 2026-04-11,1,system-design,na,api-and-storage-basics,SD-001,90,,,,,,
 2026-04-11,1,ai-interview,na,llm-and-rag-basics,AI-001,90,,,,,,
