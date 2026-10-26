@@ -28,25 +28,31 @@ public static class UniquePaths
 
     public static int HowManyUniquePathsTo(int n, int m)
     {
-        int[,] paths = new int [n,m];
-
-        for(int i = 0; i < n; i++)
+        if (n <= 0 || m <= 0)
         {
-            paths[0,i] = 1;
-        }
-        for(int j = 0; j < m; j++)
-        {
-            paths[j,0] = 1;
+            throw new ArgumentOutOfRangeException(nameof(n), "Grid dimensions must be positive.");
         }
 
-        for(int i = 1; i < n; i++)
+        int[,] paths = new int[n, m];
+
+        for (int column = 0; column < m; column++)
         {
-            for(int j = 1; j < m; j++)
+            paths[0, column] = 1;
+        }
+
+        for (int row = 0; row < n; row++)
+        {
+            paths[row, 0] = 1;
+        }
+
+        for (int row = 1; row < n; row++)
+        {
+            for (int column = 1; column < m; column++)
             {
-                paths[i,j] = paths[i-1,j]+paths[i,j-1];
+                paths[row, column] = paths[row - 1, column] + paths[row, column - 1];
             }
         }
 
-        return paths[n-1,m] + paths[n,m-1];
+        return paths[n - 1, m - 1];
     }
 }

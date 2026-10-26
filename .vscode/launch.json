@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Coding Filter",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build coding project",
+            "program": "${workspaceFolder}/solutions/coding/bin/Debug/net8.0/Coding.dll",
+            "args": ["${input:codingFilter}"],
+            "cwd": "${workspaceFolder}/solutions/coding",
+            "console": "integratedTerminal"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "codingFilter",
+            "type": "promptString",
+            "description": "Enter a Program.cs filter (or 'all')",
+            "default": "palindromicsubstrings"
+        }
+    ]
+}

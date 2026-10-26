@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build coding project",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/solutions/coding/Coding.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

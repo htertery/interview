@@ -36,3 +36,6 @@ if (filter == "all" || filter == "editdistance")
 
 if (filter == "all" || filter == "longestpalindrom")
     LongestPalindrom.RunTests();
+
+if (filter == "all" || filter == "palindromicsubstrings")
+    PalindromicSubstring.RunTests();
