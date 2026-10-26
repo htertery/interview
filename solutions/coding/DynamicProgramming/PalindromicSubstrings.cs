@@ -40,31 +40,34 @@ public static class PalindromicSubstring
     {
         Dictionary<string, bool> cache = new Dictionary<string, bool>();
         
-
+        int count = 0;
         for(int i = 0; i < str.Length; i++)
         {
             for(int j = i; j < str.Length; j++)
             {
-                IsPalindrom(i,j,str,cache);
+                if (IsPalindrom(i,j,str,cache)){
+                    count++;
+                };
             }
         }
         
-        return cache.Count(e=> e.Value);
+        return count;
     }
 
     public static bool IsPalindrom(int i, int j, string str, Dictionary<string,bool> cache)
     {
-        if (cache.ContainsKey($"{i}-{j}"))
+        if (cache.ContainsKey($"i-{i}-j-{j}"))
         {
-            return cache[$"{i}-{j}"];
+            return cache[$"i-{i}-j-{j}"];
         }
 
         bool result = false;
 
-        if (i == j)
+        if (i >= j)
         {
             result = true;
-        } else if(str[i] != str[j])
+        } 
+        else if(str[i] != str[j])
         {
           result = false;  
         }
@@ -73,7 +76,7 @@ public static class PalindromicSubstring
             result = IsPalindrom(i+1,j-1, str, cache);
         }
         
-        cache.Add($"{i}-{j}",result);
+        cache.Add($"i-{i}-j-{j}",result);
 
         return result;
     }
