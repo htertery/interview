@@ -2,10 +2,10 @@ track,topic,status,last_three_scores,rolling_avg,attempt_count,critical_miss_fre
 coding,arrays-and-strings,In Progress,3.5,3.5,1,0,First problem solved correctly after iterations
 coding,sliding-window,In Progress,3.5,3.5,1,0,Correct approach but implementation bugs (variable confusion + off-by-one)
 coding,graphs,Not Started,,0,0,0,
-coding,dynamic-programming,In Progress,4;3.5;4,3.92,8,1,Retroactive audit: 6 scored problem implementations; 5 pass all supplied tests; Longest Palindromic Subsequence misses empty input; LCS and Edit Distance remain unfinished
+coding,dynamic-programming,In Progress,4;4;4,4,10,10,Four new verified DP resolutions: LCS; Edit Distance; Longest Palindromic Subsequence; Coin Change
 system-design,requirements-and-scope,Not Started,,0,0,0,
 system-design,data-modeling-and-storage,Not Started,,0,0,0,
 system-design,scaling-and-reliability,Not Started,,0,0,0,
 ai-interview,llm-fundamentals,Not Started,,0,0,0,
 ai-interview,rag-design,Not Started,,0,0,0,
-ai-interview,evaluation-safety-cost,Not Started,,0,0,0,
+ai-interview,evaluation-safety-cost,Not Started,,0,0,0

@@ -39,3 +39,6 @@ if (filter == "all" || filter == "longestpalindrom")
 
 if (filter == "all" || filter == "palindromicsubstrings")
     PalindromicSubstring.RunTests();
+
+if (filter == "all" || filter == "coinchange")
+    CoinChange.RunTests();

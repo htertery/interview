@@ -38,32 +38,23 @@ public static class LongestCommonSub
 
     public static int GetLongestCommonSub(string str1, string str2)
     {
-        int[,] comp = new int[str1.Length+1,str2.Length+1];
-        for(int i = 0; i < str1.Length + 1; i++)
-        {
-            comp[i,0] = 0;
-        }
+        int[,] comp = new int[str1.Length + 1, str2.Length + 1];
 
-        for(int j = 0; j < str2.Length + 1; j++)
+        for (int i = 1; i <= str1.Length; i++)
         {
-            comp[0,j] = 0;
-        }
-
-        for(int i = 1; i <= str1.Length; i++)
-        {
-            for(int j = 1; j <= str2.Length; j++)
+            for (int j = 1; j <= str2.Length; j++)
             {
-                if(str1[i] == str2[j])
+                if (str1[i - 1] == str2[j - 1])
                 {
-                    comp[i,j] = comp[i-1, j-1] + 1;
+                    comp[i, j] = comp[i - 1, j - 1] + 1;
                 }
                 else
                 {
-                    comp[i,j] = Math.Max(comp[i-1,j], comp[i,j-1]);
+                    comp[i, j] = Math.Max(comp[i - 1, j], comp[i, j - 1]);
                 }
             }
         }
 
-        return comp[str1.Length,str2.Length];
+        return comp[str1.Length, str2.Length];
     }
 }
