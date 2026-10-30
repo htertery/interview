@@ -17,5 +17,7 @@
     "editor.suggest.enabled": true
   },
   "omnisharp.enableEditorConfigSupport": false,
-  "omnisharp.enableRoslynAnalyzers": false
+  "omnisharp.enableRoslynAnalyzers": false,
+  "chat.disableAIFeatures": false,
+  "editor.inlineSuggest.enabled": false
 }

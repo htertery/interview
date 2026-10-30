@@ -14,16 +14,16 @@ if (filter == "all" || filter == "longmaxuniquesub")
     LongestSubstringUniqueChars.RunTests();
 
 if (filter == "all" || filter == "maxavgsum")
-MaxAvgSub.RunTests();
+    MaxAvgSub.RunTests();
 
 if (filter == "all" || filter == "climbstairs")
-ClimbingStairs.RunTests();
+    ClimbingStairs.RunTests();
 
 if (filter == "all" || filter == "climbcost")
-ClimbingCost.RunTests();
+    ClimbingCost.RunTests();
 
 if (filter == "all" || filter == "houserobber")
-HouseRobber.RunTests();
+    HouseRobber.RunTests();
 
 if (filter == "all" || filter == "uniquepaths")
     UniquePaths.RunTests();
@@ -42,3 +42,6 @@ if (filter == "all" || filter == "palindromicsubstrings")
 
 if (filter == "all" || filter == "coinchange")
     CoinChange.RunTests();
+
+if (filter == "all" || filter == "longestIncSub")
+    LongestIncreasingSub.RunTests();
