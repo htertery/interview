@@ -45,3 +45,6 @@ if (filter == "all" || filter == "coinchange")
 
 if (filter == "all" || filter == "longestIncSub")
     LongestIncreasingSub.RunTests();
+
+if (filter == "all" || filter == "arrayminsizesum")
+    MinimumSizeSubArray.RunTests();

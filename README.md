@@ -61,3 +61,18 @@ $$
 - Week 8: reduce critical errors by at least 30% per track
 - Week 12: stable pass-level across all tracks
 - Week 16: final readiness decision and next-cycle focus
+
+## Question Categories and Estimated Rate
+
+Arrays, Strings & Hash Maps (Two Pointers, Sliding Window, Prefix Sum)	25% – 30%
+Trees & Binary Search Trees (DFS / BFS Traversal, LCA)	15% – 20%
+Graphs & Matrix Traversal (BFS, DFS, Topological Sort)	15% – 20%
+Binary Search (Search on Answer, Rotated Sorted Arrays)	8% – 10%
+Heaps / Priority Queues (Top-K Elements, Streaming Median)	7% – 8%
+Dynamic Programming (1D State Transitions, Knapsack, LIS/LCS)	5% – 8%
+Intervals & Sorting (Merge/Insert Intervals, Meeting Rooms)	5% – 7%
+Backtracking / Recursion (Permutations, Subsets, Word Search)	5% – 6%
+Linked Lists (Fast & Slow Pointers, Reversal)	3% – 5%
+Tries / Prefix Trees (Prefix Matching, Autocomplete)	3% – 4%
+Union-Find / Disjoint Set (Connected Components, Cycle Detection)	2% – 3%
+Bit Manipulation (XOR properties, Bitmasking)	< 2%
